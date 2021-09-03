@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#f9fcfc;
+}
+@media (min-width:600px){
+
+
+.text_image{
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+.image{
+    text-align: center;
+    margin-top: 40px;
+}
+.image h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.write h1{
+    /* padding:30px; */
+    margin: 60px;
+    padding-bottom: 20px;
+}
+.write .txt{
+    padding-bottom: 20px;
+}
+.im img{
+padding-top: 20px;
+margin-top: 50px;
+padding-left: 30px;
+padding-right: 30px;
+}
+.contact {
+   /* text-align: left; */
+   margin-left: auto;
+   margin-right: auto;
+   width: 47%;
+   padding: 30px;
+   /* padding-right: 10px; */
+}
+.contact h1{
+font-weight: bolder;
+font-size: 30px;
+}
+.contact form input{
+    width: 500px;
+    height: 40px;
+}
+.contact form textarea{
+width: 500px;
+height: 120px;
+}
+
+form{
+    text-align: left;
+    padding-left: 60px; 
+    margin-top: 80px;
+    background-color: white;
+    max-width: 1000px;
+    height: 60%;
+    padding-top: 30px;
+    padding-right: 500px;
+    margin-top: 9%;
+    box-shadow: 0 2.8px 2.2px rgba(0,0,0,0.02), 
+    0 6.7px 5.3px rgba(0,0,0,0.028),
+    0 12.5px 10px rgba(0, 0, 0, 0.035),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    0 100px 80px rgba(0, 0, 0, 0.07);
+    
+}
+form .first{
+    padding: 10px;
+}
+form input{
+    padding: 10px;
+}
+form .last{
+    padding: 10px;
+}
+form .message{
+    padding: 10px;
+}
+form .lab{
+    padding-bottom: 10px;
+}
+form .last .first label{
+    font-size: 20px;
+
+}
+.message textarea{
+    padding: 10px;
+}
+form  .but{
+    text-align: right; 
+    padding-right: 390px; 
+     padding-left: 400px; 
+}
+form  .but button{
+background-color: rgb(15, 15, 226);
+color: white;
+width: 120px;
+height: 40px;
+border: 5px solid white;
+border-radius: 10px ;
+
+}
+}
